@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+a:hover {
+    color: #f40;
+}
+ul li {
+    list-style: none;
+}
+body {
+    font-size: 12px;
+}
+.shortcut .spacer {
+    width: 1px;
+    height: 10px;
+    overflow: hidden;
+    background-color: #ccc;
+    margin: 11px 5px 0;
+}
+.wrapper {
+    min-width: 1190px;
+    background-color: #f0f3ef;
+}
+.wrapper .shortcut {
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+}
+.wrapper .shortcut .w {
+    margin: 0 auto;
+    width: 1190px;
+    height: 100%;
+}
+.shortcut li {
+    float: left;
+    line-height: 30px;
+}
+.shortcut a {
+    color: #999;
+}
+.shortcut a:hover {
+    color: #f40;
+}
+.wrapper .shortcut .w .left {
+    float: left;
+    width: 258px;
+    height: 30px;
+}
+.wrapper .shortcut .w .right {
+    float: right;
+}
+.shortcut .short-btn {
+    padding: 0 8px;
+}
+.wrapper .header {
+    width: 100%;
+    height: 140px;
+}
+.wrapper .header .con {
+    position: relative;
+    width: 1190px; 
+    height: 100%;
+    margin: 0 auto;
+}
+.header .con .logo {
+    position: absolute;
+    top: -30px;
+    width: 192px;
+    height: 170px;
+    background: url(../img/logo.png);
+    background-size: 100%;
+}
+.header .con .search {
+    position: absolute;
+    left: 320px;
+    top: 25px;
+    width: 550px;
+    height: 35px;
+}
+.header .con .search-list {
+    position: absolute;
+    top: 35px;
+    width: 550px;
+    z-index: 12;
+}
+.search .text {
+    position: absolute;
+    left: 0;
+    padding: 4px 44px 4px 4px;
+    width: 450px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    outline: none;
+}
+.search .wbtn {
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    border: none;
+    background-color: red;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.header .con .shopping {
+    position: absolute;
+    right: 99px;
+    top: 25px;
+}
+.shopping a {
+    display: block;
+    width: 188px;
+    height: 33px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 33px;
+    color: red;
+}
+.shopping .count {
+    position: absolute;
+    top: 5px;
+    left: 140px;
+    right: auto;
+    display: inline-block;
+    padding: 1px;
+    line-height: 12px; 
+    color: #fff;
+    background-color: #f10215;
+    border-radius: 7px;
+    min-width: 12px;
+    text-align: center;
+}
+.header .con .hotwords {
+    position: absolute;
+    overflow: hidden;
+    left: 320px;
+    top: 65px;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+}
+.hotwords a {
+    margin: 0 5px;
+    color: #999;
+}
+.hotwords a:hover {
+    color: #f40;
+}
+.header .con .navitems {
+    overflow: hidden;
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+    width: 790px;
+    height: 40px;
+    padding-top: 20px;
+}
+.navitems li:hover {
+    color: #f40;
+}
+.navitems li {
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #333;
+}
+.navitems .spacer {
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    margin-right: -10px;
+    margin-top: 5px;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.header .con .code {
+    overflow: hidden;
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    width: 60px;
+    height: 60px;
+    background: url(../img/1.png);
+    background-size: 100%;
+    border: 1px solid #999;
+}
+.wrapper .content {
+    width: 100%;
+    height: 600px;
+}
+.wrapper .content .con {
+    margin: 0 auto;
+    width: 1190px;
+    height: 600px;;
+}
+.meau, .slider {
+    float: left;
+    height: 480px;
+    margin-right: 10px;
+}
+.con .meau {
+    position: relative;
+    width: 190px;
+    background-color: #fff;
+}
+.con .meau ul {
+    padding: 6px 0;
+    height: 468px;
+}
+.con .meau li {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 18px;
+    overflow: hidden;
+}
+.con .meau li:hover {
+    background-color: #d9d9d9;
+}
+.con .meau a {
+    font-size: 14px;
+    color: #626262;
+}
+.con .meau a:hover {
+    color: #f40;
+}
+.con .meau .popCtn {
+    position: absolute;
+    left: 191px;
+    top: 0px;
+    z-index: 2;
+    width: 1000px;
+    height: 480px;
+    display: none;
+    background-color: #fff;
+}
+.popCtn .cate_part {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.con .slider {
+    margin-top: 10px;
+    width: 590px;
+}
+#imgSlider {
+    width: 590px;
+    height: 470px;
+}
+.ad, .user {
+    width: 190px;
+    height: 480px;
+}
+.con .ad {
+    float: left;
+}
+.con .ad .ad-item {
+    margin-top: 10px;
+    width: 190px;
+    height: 150px;
+}
+.ad-item img {
+    width: 100%;
+    height: 100%;
+}
+.con .user {
+    float: right;
+}
+.user .j_user {
+    height: 150px;
+    background: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+.j_user .user_inner{
+    position: relative;
+    padding-top: 62px;
+    height: 78px;
+}
+.j_user .user_inner .user_header {
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -34px;
+    width: 65px;
+    height: 65px;
+}
+.user_header a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    border: 5px solid #e3e1df;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 6px 35px #c3c3c3;
+}
+.user_header a img {
+    width: 55px;
+    height: 55px;
+}
+.user_inner .user_show {
+    padding: 0 10px;
+}
+.user_show p {
+    overflow: hidden;
+    line-height: 20px;
+    width: 100%;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #888;
+}
+.user_inner .user_profit {
+    margin-top: 10px;
+    height: 25px;
+    font-size: 0;
+}
+.user_inner .user_profit a {
+    display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 13px;
+    box-shadow: 6px 8px 20px rgba(45,45,45,0.15)
+}
+.user_profit a.newp {
+    color: red;
+}
+.user_profit a.plus {
+    color: #e5d790;
+    background: #363634;
+}
+.user .news {
+    overflow: hidden;
+    height: 130px;
+    background: #fff;
+}
+.user .news .news_tab {
+    position: relative;
+    padding: 8px 0;
+    line-height: 13px;
+    font-size: 0;
+}
+.news .news_tab a {
+    font-size: 12px;
+    color: #333;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.news .news_tab a.ll {
+    border-right: 1px solid #fde0e1;
+}
+.news .news_tab .news_more {
+    position: absolute;
+    right: 0;
+}
+.news .news_text {
+    position: relative;
+    padding-top: 8px;
+    margin: 0 15px;
+    height: 88px;
+}
+.user .service {
+    overflow: hidden;
+    position: relative;
+    height: 190px;
+}
+.service .service_entry {
+    overflow: hidden;
+    padding: 18px 11px 11px;
+    background: #fff;
+}
+.service_entry .service_list {
+    height: 165px;
+}
+.service_entry .service_item {
+    position: relative;
+    float: left;
+    width: 42px;
+    height: 55px;
+    background: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.service_entry .service_item a {
+    display: block;
+    width: 100%;
+    height: 100%; 
+    background-image: url(../img/services.jpg);
+    background-size: 400%;
+}
+.service_item .item_tab1 {
+    background-position: 0% 0%;
+}
+.service_item .item_tab2 {
+    background-position: -45px 0;
+}
+.service_item .item_tab3 {
+    background-position: -90px 0;
+}
+.service_item .item_tab4 {
+    background-position: -128px 0;
+}
+.service_item .item_tab5 {
+    background-position: 0 -55px;
+}
+.service_item .item_tab6 {
+    background-position: -45px -55px;
+}
+.service_item .item_tab7 {
+    background-position: -88px -55px;
+}
+.service_item .item_tab8 {
+    background-position: -128px -55px;
+}
+.service_item .item_tab9 {
+    background-position: 0px -110px;
+}
+.service_item .item_tab10 {
+    background-position: -45px -110px;
+}
+.service_item .item_tab11 {
+    background-position: -90px -110px;
+}
+.service_item .item_tab12 {
+    background-position: -128px -110px;
+}
+.service .service_content {
+    position: relative;
+    width: 170px;
+    height: 180px;
+    padding: 10px;
+    background-color: #fff;
+    display: none;
+}
+.service_content .service_header {
+    height: 22px;
+    cursor: pointer;
+}
+.service_content .service_header span {
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 6px;
+    cursor: pointer;
+}
+.service_content .service_header span.active {
+    border-bottom: 2px solid #f40;
+    color: #f40;
+}
+.service_content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #f40;
+    font-size: 16px;
+}
+.service_content .content {
+    position: absolute;
+    display: none;
+    height: 100%;
+}
+#location {
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}

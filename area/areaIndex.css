@@ -1,0 +1,42 @@
+
+#location:hover .itemList {
+    visibility: visible;
+}
+
+#location img {
+    width: 20px;
+    height: 20px;
+}
+#location .areaContent {
+    height: 30px;
+    line-height: 30px;
+}
+.areaContent .nowArea {
+    height: 30px;
+}
+#location .itemList {
+    position: absolute;
+    background: #fff;
+    z-index: 999;
+    visibility: hidden;
+}
+.itemList .item {
+    float: left;
+    width: 60px;
+    padding: 2px 0;
+    line-height: 25px;
+}
+.itemList .item a {
+    text-align: left;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+}
+.itemList .item a:hover {
+    background: #dad8d8;
+}
+.itemList .item a.active {
+    background: red;
+    color: #fff;
+}
